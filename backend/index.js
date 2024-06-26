@@ -13,7 +13,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   console.log(req);
-  return res.status(234).send("Welcome bastard");
+  return res.status(234).send("hello there");
 });
 
 //Middleware for routing
